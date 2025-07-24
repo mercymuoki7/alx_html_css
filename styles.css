@@ -1,0 +1,35 @@
+/* Make body a flex container in column direction */
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Make main a flex container in row direction */
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+/* Let article take 2/3 of the width */
+article {
+  flex: 2;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+/* Let aside take 1/3 of the width */
+aside {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+/* Optional: some basic styling to see layout clearly */
+header, footer {
+  background-color: #ddd;
+  padding: 20px;
+  text-align: center;
+}
