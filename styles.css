@@ -1,35 +1,36 @@
-/* Make body a flex container in column direction */
 body {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  margin: 0;
+  background-color: #f0f8ff;
+  color: #333;
 }
 
-/* Make main a flex container in row direction */
-main {
-  display: flex;
-  flex-direction: row;
-  flex: auto;
-}
-
-/* Let article take 2/3 of the width */
-article {
-  flex: 2;
-  overflow-y: auto;
+header {
+  background-color: #333;
+  color: white;
   padding: 10px;
 }
 
-/* Let aside take 1/3 of the width */
-aside {
-  flex: 1;
-  overflow-y: auto;
-  padding: 10px;
-}
-
-/* Optional: some basic styling to see layout clearly */
-header, footer {
-  background-color: #ddd;
-  padding: 20px;
+footer {
+  background-color: #333;
+  color: white;
   text-align: center;
+  padding: 10px;
 }
+
+article {
+  background-color: #fff;
+  border: 2px solid #ccc;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+aside {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-left: 2px solid #ddd;
+}
+
+h1, h2 {
+  color: #0077cc;
+}
+
