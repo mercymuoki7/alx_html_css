@@ -195,3 +195,60 @@ body {
   color: #C271FF;
   font-weight: bold;
 }
+.membership {
+  background-color: #071629;
+  padding: 80px 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.membership h2 {
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+
+.membership .highlight {
+  color: #C271FF;
+}
+
+.membership-features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.feature {
+  max-width: 220px;
+}
+
+.feature img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.feature h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+/* CTA Button */
+.cta-button {
+  display: inline-block;
+  background-color: #C271FF;
+  color: #ffffff;
+  padding: 12px 32px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
