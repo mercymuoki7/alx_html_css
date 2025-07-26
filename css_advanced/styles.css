@@ -81,3 +81,117 @@ body {
 .btn-primary:hover {
   background-color: #a654d9;
 }
+/* Reusable Container Centering */
+.centered-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Testimonial Section */
+.testimonial {
+  background-color: #C271FF;
+  color: #fff;
+  padding: 60px 20px;
+}
+
+.testimonial-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.testimonial-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.testimonial blockquote {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.testimonial footer {
+  font-size: 16px;
+  font-style: italic;
+  opacity: 0.9;
+}
+/* Section Heading */
+.videos {
+  background-color: #f2f2f2;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.videos h2 {
+  font-size: 32px;
+  color: #071629;
+  margin-bottom: 60px;
+}
+
+.videos h2 .highlight {
+  color: #C271FF;
+}
+
+/* Grid Layout for Videos */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Video Card Styling */
+.video-card {
+  background-color: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: left;
+  padding: 0 0 20px 0;
+}
+
+.video-card img {
+  width: 100%;
+  display: block;
+}
+
+.video-card h3 {
+  font-size: 16px;
+  color: #071629;
+  margin: 16px 16px 8px;
+}
+
+.video-card .author {
+  font-size: 14px;
+  color: #C271FF;
+  font-weight: 600;
+  margin: 0 16px 16px;
+}
+
+/* Rating Row */
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 16px;
+}
+
+.rating img {
+  width: 14px;
+  height: 14px;
+}
+
+.duration {
+  margin-left: auto;
+  margin-right: 16px;
+  font-size: 12px;
+  color: #C271FF;
+  font-weight: bold;
+}
